@@ -1,0 +1,25 @@
+<main *ngIf="isAccessTocket()" class="admin">
+  <ng-container *ngTemplateOutlet="admin"></ng-container>
+</main>
+
+<main *ngIf="!isAccessTocket()" class="frontend">
+  <ng-container *ngTemplateOutlet="frontend"></ng-container>
+</main>
+<alert></alert>
+
+<ng-template #admin>
+  <app-sidenav></app-sidenav>
+  <div class="dashboard-session">
+    <app-header></app-header>
+    <router-outlet></router-outlet>
+  </div>
+</ng-template>
+
+
+<ng-template #frontend>
+  <app-frontend-header> </app-frontend-header>
+  <router-outlet></router-outlet>
+  <app-frontend-footer></app-frontend-footer>
+</ng-template>
+
+

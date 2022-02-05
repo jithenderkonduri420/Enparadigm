@@ -1,0 +1,44 @@
+header{
+    text-align: center;
+    h1{
+        text-shadow: 0 2px 13px 0 rgba(27,27,27,0.38);
+        font-size: 45px;
+    }
+    svg{
+        width: 220px;
+        position: relative;
+        left: -15px;
+        margin-bottom: 15px;
+    }
+}
+.login-container{
+    display: flex;
+    width: 95%;
+    height: 90%;
+    align-content: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #e4e9f2;
+    background-color: #ffffff;
+    padding: 70px;
+    .form-section{
+        margin-top: 30px;
+        width: 100%;
+        max-width: 350px;
+    }
+    h2{
+        color: #303030;
+        font-size: 24px;
+        letter-spacing: 0;
+        line-height: 1.8;
+        margin: 0;
+    }
+    p{
+        color: #303030;
+        font-size: 14px;
+        letter-spacing: 0;
+        line-height: 15px;
+        margin: 0;
+    }
+}

@@ -1,0 +1,528 @@
+@import "~bootstrap/scss/bootstrap";
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('assets/fonts/Poppins-Bold.woff2') format('woff2'),
+        url('assets/fonts/Poppins-Bold.woff') format('woff'),
+        url('assets/fonts/Poppins-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('assets/fonts/Poppins-Black.woff2') format('woff2'),
+        url('assets/fonts/Poppins-Black.woff') format('woff'),
+        url('assets/fonts/Poppins-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('assets/fonts/Poppins-Italic.woff2') format('woff2'),
+        url('assets/fonts/Poppins-Italic.woff') format('woff'),
+        url('assets/fonts/Poppins-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('assets/fonts/Poppins-ExtraLight.woff2') format('woff2'),
+        url('assets/fonts/Poppins-ExtraLight.woff') format('woff'),
+        url('assets/fonts/Poppins-ExtraLight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('assets/fonts/Poppins-ExtraBold.woff2') format('woff2'),
+        url('assets/fonts/Poppins-ExtraBold.woff') format('woff'),
+        url('assets/fonts/Poppins-ExtraBold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('assets/fonts/Poppins-Light.woff2') format('woff2'),
+        url('assets/fonts/Poppins-Light.woff') format('woff'),
+        url('assets/fonts/Poppins-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('assets/fonts/Poppins-Medium.woff2') format('woff2'),
+        url('assets/fonts/Poppins-Medium.woff') format('woff'),
+        url('assets/fonts/Poppins-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('assets/fonts/Poppins-SemiBold.woff2') format('woff2'),
+        url('assets/fonts/Poppins-SemiBold.woff') format('woff'),
+        url('assets/fonts/Poppins-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('assets/fonts/Poppins-Thin.woff2') format('woff2'),
+        url('assets/fonts/Poppins-Thin.woff') format('woff'),
+        url('assets/fonts/Poppins-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('assets/fonts/Poppins-Regular.woff2') format('woff2'),
+        url('assets/fonts/Poppins-Regular.woff') format('woff'),
+        url('assets/fonts/Poppins-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('assets/fonts/Roboto-Black.woff2') format('woff2'),
+        url('assets/fonts/Roboto-Black.woff') format('woff'),
+        url('assets/fonts/Roboto-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('assets/fonts/Roboto-Italic.woff2') format('woff2'),
+        url('assets/fonts/Roboto-Italic.woff') format('woff'),
+        url('assets/fonts/Roboto-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('assets/fonts/Roboto-Bold.woff2') format('woff2'),
+        url('assets/fonts/Roboto-Bold.woff') format('woff'),
+        url('assets/fonts/Roboto-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('assets/fonts/Roboto-Light.woff2') format('woff2'),
+        url('assets/fonts/Roboto-Light.woff') format('woff'),
+        url('assets/fonts/Roboto-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('assets/fonts/Roboto-Medium.woff2') format('woff2'),
+        url('assets/fonts/Roboto-Medium.woff') format('woff'),
+        url('assets/fonts/Roboto-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('assets/fonts/Roboto-Regular.woff2') format('woff2'),
+        url('assets/fonts/Roboto-Regular.woff') format('woff'),
+        url('assets/fonts/Roboto-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('assets/fonts/Roboto-Thin.woff2') format('woff2'),
+        url('assets/fonts/Roboto-Thin.woff') format('woff'),
+        url('assets/fonts/Roboto-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+html{
+    width: 100%;
+    height: 100%;
+}
+
+body{
+    width: 100%;
+    min-height: 100%;
+    display: grid;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+alert{
+    .alert{
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        margin: 25px;
+    }
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #f2f1fe;
+    app-root{
+        width: 100%;
+        height: 100%;
+        display: flex;
+    }
+}
+
+.custom-scrollbar{
+    // max-height: 600px;
+    overflow-y: visible;
+    overflow-x: hidden;
+    &::-webkit-scrollbar {
+        width: 8px;
+    }
+    &::-webkit-scrollbar-track {
+        border-radius: 4px;
+        background-color: #EEEEEE;
+    }
+    &::-webkit-scrollbar-thumb {
+        border-radius: 4px;
+        background-color: #58e9cc;
+    }
+}
+
+app-login{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    background: #f2f1fe;
+}
+
+
+.modal-open .modal {
+  display: flex !important;
+  align-items: center !important;
+  .modal-dialog {
+    flex-grow: 1;
+    max-width: 700px;
+    .modal-content{
+        border: none;
+        border-radius: 10px;
+    }
+  }
+}
+
+.admin{
+    header{
+        padding: 0;
+        float: left;
+        width: 100%;
+        position: relative;
+        border-bottom: solid thin #edf1f7;
+        padding: 0 25px;
+        .page-title{
+            color: #000000;
+            font-size: 22px;
+            margin: 0;
+            padding: 10px 0;
+            font-weight: 500;
+            letter-spacing: 0;
+            line-height: 47px;
+            float: left;
+        }
+        .btn{
+            float: right;
+            padding: 8px 20px;
+            border: solid thin #6e6f8a;
+            border-radius: 0;
+            margin: 10px;
+            vertical-align: middle;
+            font-size: 18px;
+            transition: ease-in-out all 0.2s;
+            &:hover{
+                background: #6e6f8a;
+                color: #ffffff;
+                svg{
+                    fill: #ffffff;
+                }
+            }
+            svg{
+                position: relative;
+                top: -2px;
+                width: 14px;
+                margin-left: 10px;
+                transition: ease-in-out all 0.2s;
+            }
+        }
+    }
+}
+
+@media print
+{    
+    .no-print, .no-print *
+    {
+        display: none !important;
+    }
+}
+
+.main-section{
+    float: left;
+    width: 100%;
+    padding: 0 20px;
+    margin: 20px 0;
+    &>div{
+        float: left;
+        width: 100%;
+    }
+}
+
+$someColor : #58e9cc;
+
+.timepicker {
+
+    .timepicker__header {
+      background-color: $someColor !important;
+    }
+  
+    .clock-face__clock-hand {
+      background-color: $someColor !important;
+  
+      &::after {
+        background-color: $someColor !important;
+      }
+  
+      &::before {
+        border-color: $someColor !important;
+      }
+    }
+  
+    .clock-face__number {
+      > span.active {
+        background-color: $someColor !important;
+      }
+    }
+  
+    button:not(.timepicker-dial__item) {
+      color: $someColor !important;
+    }
+  }
+
+.Enparadigm-forms{
+    form{
+        float: left;
+        max-width: 650px;
+        &>div{
+            margin-bottom: 20px;
+            margin-top: 20px;
+            position: relative;
+            overflow: visible;
+        }
+        .form-label{
+            position: absolute;
+            margin-left: 25px;
+            padding: 0 15px;
+            top: -8px;
+            background-color: #ffffff;
+            z-index: 2;
+            color: rgba(48, 48, 48, 0.8);
+            font-size: 14px;
+            letter-spacing: 0;
+            line-height: 16px;
+        }
+        .form-text{
+            display: flex;
+            align-items: center;
+            label{
+                color: #000000;
+                font-size: 16px;
+                letter-spacing: 0;
+                line-height: 19px;
+            }
+        }
+        input,
+        select{
+            border: 1px solid #979797;
+            border-radius: 5px;
+            background-color: #FFFFFF;
+            height: 46px;
+            padding-right: 15px;
+            padding-left: 15px;
+            color: #000000;
+            font-size: 13px;
+            font-weight: 500;
+            letter-spacing: 0;
+            line-height: 15px;
+            &.inputDisabled{
+                pointer-events: none;
+            }
+            &:-webkit-autofill,
+            &:-webkit-autofill:hover,
+            &:-webkit-autofill:focus,
+            &:-webkit-autofill:active
+            {
+                -webkit-box-shadow: 0 0 0 30px white inset !important;
+                background: none;
+            }
+            &:read-only{
+                background-color: #ffffff;
+            }
+        }
+        input{
+            &:focus,
+            &:disabled, &.inputDisabled{
+                background: none !important;
+                border-color: #cccccc;
+            }
+        }
+        select{
+            -webkit-appearance: none;
+            background-image: url("data:image/svg+xml;utf8,<svg fill='black' height='32' viewBox='0 0 24 26' width='40' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/><path d='M0 0h30v30H0z' fill='none'/></svg>") !important;
+            background-repeat: no-repeat;
+            background-position-x: 98%;
+            background-position-y: 63%;
+            &:disabled, &.inputDisabled{
+                background-color: #ffffff;
+                border-color: #cccccc;
+            }
+        }
+
+        .radio-btn-group{
+            margin-top: 10px;
+            margin-left: 5px;
+            label{
+                background-color: #e6e6e6;
+                border-color: #e6e6e6;
+                color: #000000;
+                &.active,
+                &:focus,
+                &:active{
+                    background-color: #58e9cc !important;
+                    border-color: #58e9cc !important;
+                }
+            }
+            input{
+                display: none;
+            }
+        }
+        button{
+            border-radius: 5px;
+            background-color: #E77649;
+            border: none;
+            outline: none;
+            height: 46px;
+            &:hover, &:active, &:focus{
+                background-color: #58e9cc;
+            }
+        }
+        .error-message{
+            margin: 0;
+            font-size: 13px;
+            &::before{
+                content: "*";
+            }
+        }
+    }
+    .upload-imge{
+        display: flex;
+        align-items: center;
+        margin: 20px 0;
+        .upload-placeholder{
+            width: 150px;
+            border: 1px solid #979797;
+            overflow: hidden;
+            img{
+                width: 150px;
+                height: 150px;
+                object-fit: cover;
+            }
+            label{
+                margin: 0;
+            }
+            input{
+                display: none;
+            }
+        }
+        ul{
+            list-style-type: none;
+            list-style-position: inside;
+            li{
+                color: #838383;
+                font-size: 12px;
+                letter-spacing: 0;
+            }
+        }
+    }
+    .invalid-feedback {
+      display: block !important;
+    }
+}
+
+frontend-dashboard{
+    height: 100%;
+    padding: 50px;
+    background: #eefdfa;
+    .container{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 100%;
+    }
+}
+
+app-dashboard,
+app-questionnaires,
+app-add,
+app-configuration,
+app-survey,
+app-industry,
+app-dimension{
+    display: block;
+    width: 95%;
+    max-height: 95%;
+    margin: 2.5%;
+    float: left;
+    background: #ffffff;
+    padding: 0;
+    border: 1px solid #e4e9f2;
+}
+
+.container{
+    max-width: 1640px;
+}
