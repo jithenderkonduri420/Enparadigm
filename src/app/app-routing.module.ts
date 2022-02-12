@@ -7,6 +7,7 @@ import { AddQuestionnairesComponent } from './_components/admin/questionnaires/a
 import { QuestionnairesComponent } from './_components/admin/questionnaires/questionnaires.component';
 import { SurveyComponent } from './_components/admin/survey/survey.component';
 import { AuthGuard } from './_helpers/auth.guard';
+import { FrontEndResultComponent } from './_components/frontend/result/result.component';
 
 const routes: Routes = [
   { path: 'admin', component: LoginComponent },
@@ -14,6 +15,7 @@ const routes: Routes = [
   { path: 'admin/questionnaires', component: QuestionnairesComponent, canActivate: [AuthGuard] },
   { path: 'admin/add-questionnaire', component: AddQuestionnairesComponent, canActivate: [AuthGuard] },
   { path: 'admin/users', component: SurveyComponent, canActivate: [AuthGuard] },
+  { path: 'result', component: FrontEndResultComponent },
   { path: '', component: FrontEndDashboardComponent},
 
 ];

@@ -1,0 +1,22 @@
+<svg id="Background" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="480" viewBox="0 0 1920 480">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#6852ed"/>
+      <stop offset="1" stop-color="#ba43fc"/>
+    </linearGradient>
+    <clipPath id="clip-path">
+      <rect id="Bg" width="1920" height="480" opacity="0.05" fill="url(#linear-gradient)"/>
+    </clipPath>
+  </defs>
+  <g id="Background-2" data-name="Background" clip-path="url(#clip-path)">
+    <rect id="Bg-2" data-name="Bg" width="1920" height="480" fill="#ffc205" opacity="0.05"/>
+    <circle id="Bg-3" data-name="Bg" cx="10" cy="10" r="10" transform="translate(318 274)" fill="#fc5233"/>
+    <circle id="Bg-4" data-name="Bg" cx="25" cy="25" r="25" transform="translate(365 49)" fill="#b00054"/>
+    <path id="Bg-5" data-name="Bg" d="M90.5,0A90.5,90.5,0,1,1,0,90.5,90.5,90.5,0,0,1,90.5,0Z" transform="translate(26 68)" fill="#b00054"/>
+    <circle id="Bg-6" data-name="Bg" cx="18.5" cy="18.5" r="18.5" transform="translate(1283 49)" fill="#b00054"/>
+    <circle id="Bg-7" data-name="Bg" cx="40" cy="40" r="40" transform="translate(1465 314)" fill="#fc5233"/>
+    <path id="Bg-8" data-name="Bg" d="M107.5,0A107.5,107.5,0,1,1,0,107.5,107.5,107.5,0,0,1,107.5,0Z" transform="translate(1813 109)" fill="#b00054"/>
+    <path id="Shape" d="M32.011,565.72a100.809,100.809,0,0,1-4.674-142.7L394.417,31.948A101.068,101.068,0,0,1,542.083,169.984L175.007,561.056a101.306,101.306,0,0,1-143,4.664" transform="translate(1728 -525)" fill="#fc5233"/>
+    <path id="Shape-2" data-name="Shape" d="M.057,510.369a103.287,103.287,0,0,1,28.066-74.513L405.752,32.917a104.049,104.049,0,1,1,151.91,142.227L180.036,578.086a104.1,104.1,0,0,1-147.105,4.806A103.309,103.309,0,0,1,.057,510.369Z" transform="translate(50 385)" fill="#fc5233"/>
+  </g>
+</svg>
