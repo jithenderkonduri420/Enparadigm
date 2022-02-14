@@ -48,6 +48,7 @@ import { SurveyComponent } from './_components/admin/survey/survey.component';
   ],
   imports: [
     BrowserModule,
+    BrowserAnimationsModule,
     FormsModule,
     ReactiveFormsModule,
     AppRoutingModule,

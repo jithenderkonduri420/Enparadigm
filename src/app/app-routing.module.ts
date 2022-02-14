@@ -15,7 +15,7 @@ const routes: Routes = [
   { path: 'admin/questionnaires', component: QuestionnairesComponent, canActivate: [AuthGuard] },
   { path: 'admin/add-questionnaire', component: AddQuestionnairesComponent, canActivate: [AuthGuard] },
   { path: 'admin/users', component: SurveyComponent, canActivate: [AuthGuard] },
-  { path: 'result', component: FrontEndResultComponent },
+  { path: 'results', component: FrontEndResultComponent },
   { path: '', component: FrontEndDashboardComponent},
 
 ];

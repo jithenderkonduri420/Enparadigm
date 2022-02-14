@@ -1,150 +1,173 @@
 <!-- Main jumbotron for a primary marketing message or call to action -->
 <div class="jumbotron">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-5">
-                <div class="about-workforce">
-                    <h1 class="lead">Workforce Digital Quotient Quiz</h1>
-                    <p>With the accelerated digitalization of the world, substantial advances have come about in the way
-                        we work, communicate, and live our lives. Businesses have been forced to quickly scale and
-                        deliver a seamless digital experience.</p>
-                    <p class="lead">
-                        <a class="btn btn-secondary btn-lg" data-toggle="modal" data-target="#exampleModal" role="button">Start the Quiz</a>
-                    </p>
-                </div>
-            </div>
-            <div class="col-md-7">
-                <div class="image-workforce">
-                    <img class="workforce-img" src="../../../../assets/images/Image.png">
-                </div>
-            </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-5">
+        <div class="about-workforce">
+          <h1 class="lead">Workforce Digital Quotient Quiz</h1>
+          <p>
+            With the accelerated digitalization of the world, substantial
+            advances have come about in the way we work, communicate, and live
+            our lives. Businesses have been forced to quickly scale and deliver
+            a seamless digital experience.
+          </p>
+          <p class="lead">
+            <a class="btn btn-secondary btn-lg" (click)="open(mymodal)"
+              >Start the Quiz</a
+            >
+          </p>
         </div>
+      </div>
+      <div class="col-md-7">
+        <div class="image-workforce">
+          <img
+            class="workforce-img"
+            src="../../../../assets/images/Image.png"
+          />
+        </div>
+      </div>
     </div>
+  </div>
 </div>
 
 <div class="container-fluid bg-marron">
+  <div class="modal-body">
     <div class="container">
+      <!-- Example row of columns -->
+      <div class="row">
+        <div class="col-md-12">
+          <div class="cols">
+            <h3>Why Workplace DQ?</h3>
+            <p class="cols-text">
+              To compete and become ready for the Future of Work, organizations
+              must understand the Digital Quotient of their workforce. Simply
+              put, Digital Intelligence or Digital Quotient of the workforce is
+              the ability to acquire and apply new knowledge and skills related
+              to digital technologies
+            </p>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="col">
+            <img class="icon-one" src="../../../../assets/images/Group3.png" />
+            <p>High Workforce DQ Drives Transformation</p>
+          </div>
+          <!-- /.col -->
+        </div>
+        <!-- /.col-md-6 -->
+
+        <div class="col-md-4">
+          <div class="col">
+            <img class="icon-one" src="../../../../assets/images/Group4.png" />
+            <p>High Workforce DQ Increases Productivity</p>
+          </div>
+          <!-- /.col -->
+        </div>
+        <!-- /.col -->
+        <div class="col-md-4">
+          <div class="col">
+            <img class="icon-one" src="../../../../assets/images/Group5.png" />
+            <p>High Workforce DQ Improves Operational Agility</p>
+          </div>
+          <!-- /.col -->
+        </div>
+        <!-- /.col-md-6 -->
+        <div class="col-md-12">
+          <div class="cols">
+            <p class="cols-text">
+              According to a report by Capgemini Consulting, organizations with
+              a high DQ (both at organization and workforce level) are 26% more
+              profitable than their industry competitors.
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- /.row -->
+    </div>
+  </div>
+  <div class="bg-image">
+    <div class="container-fluid">
+      <div class="container">
         <!-- Example row of columns -->
         <div class="row">
-            <div class="col-md-12">
-                <div class="cols">
-                    <h3>Why Workplace DQ?</h3>
-                    <p class="cols-text">To compete and become ready for the Future of Work, organizations must
-                        understand the Digital Quotient of their workforce. Simply put, Digital Intelligence or Digital
-                        Quotient of the workforce is the ability to acquire and apply new knowledge and skills related
-                        to digital technologies</p>
-                </div>
-            </div>
+          <div class="col-md-12">
+            <h3>
+              Regular assessments of DQ will enable organizations to recalibrate
+              & realign their strategy and systematically plug any gaps in
+              capabilities.
+            </h3>
+            <p class="cols-text">
+              This quiz consists of 10 questions that will help you identify the
+              current state of your workforce DQ.
+            </p>
+            <a
+              class="btn btn-secondary btn-lg"
+              data-toggle="modal"
+              data-target="#exampleModal"
+              role="button"
+              >Start the Quiz</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
-            <div class="col-md-4">
-                <div class="col">
-                    <img class="icon-one" src="../../../../assets/images/Group3.png">
-                    <p>High Workforce DQ Drives Transformation</p>
-                </div> <!-- /.col -->
-            </div> <!-- /.col-md-6 -->
-
-            <div class="col-md-4">
-                <div class="col">
-                    <img class="icon-one" src="../../../../assets/images/Group4.png">
-                    <p>High Workforce DQ Increases Productivity</p>
-                </div> <!-- /.col -->
-            </div> <!-- /.col -->
-            <div class="col-md-4">
-                <div class="col">
-                    <img class="icon-one" src="../../../../assets/images/Group5.png">
-                    <p>High Workforce DQ Improves Operational Agility</p>
-                </div> <!-- /.col -->
-            </div> <!-- /.col-md-6 -->
-            <div class="col-md-12">
-                <div class="cols">
-                    <p class="cols-text">According to a report by Capgemini Consulting, organizations with a high DQ
-                        (both at organization and workforce level) are 26% more profitable than their industry
-                        competitors.</p>
-                </div>
-            </div>
-        </div> <!-- /.row -->
+  <ng-template #mymodal let-modal>
+    <div class="modal-header">
+      <h5 class="modal-title" id="exampleModalLabel">Why Workplace DQ?</h5>
+      <button
+        type="button"
+        class="close"
+        data-dismiss="modal"
+        aria-label="Close"
+      >
+        <span aria-hidden="true" (click)="closeModal()">&times;</span>
+      </button>
+    </div>
+    <div class="modal-body">
+      <span>QUESTION 01/10</span>
+      <div class="progress" style="height: 5px">
+        <div
+          class="progress-bar"
+          role="progressbar"
+          style="width: 100%"
+          aria-valuenow="100"
+          aria-valuemin="0"
+          aria-valuemax="100"
+        ></div>
+      </div>
+      <div class="question" *ngFor="let item of questionnairesList; let qNo = index" id="Block{{item.qNo}}" [hidden]="currentIndex != qNo">
+      <h4>
+        {{item.questionnaire}}
+      </h4>
+      <div *ngIf="item.options.length && item.values.length">
+      <div class="form-check"  *ngFor="let op of item.options; let i = index">
+        <input
+          class="form-check-input"
+          type="radio"
+          name="block{{item.blockIndex}}-q{{qNo}}"
+          id="{{qNo}}{{ item.values[i] }}" 
+          (change)="selectedOption(qNo, op, item.values[i] )"/>
+        <label class="form-check-label" for="exampleRadios1" for="{{qNo}}{{ item.values[i] }}">
+          {{op}}
+        </label>
+      </div>
+    </div>
+      
     </div>
 </div>
-<div class="bg-image">
-    <div class="container-fluid">
-        <div class="container">
-            <!-- Example row of columns -->
-            <div class="row">
-                <div class="col-md-12">
-                    <h3>Regular assessments of DQ will enable organizations to recalibrate & realign their strategy and
-                        systematically plug any gaps in capabilities.</h3>
-                    <p class="cols-text">This quiz consists of 10 questions that will help you identify the current
-                        state of your workforce DQ.</p>
-                    <a class="btn btn-secondary btn-lg" data-toggle="modal" data-target="#exampleModal" role="button">Start the Quiz</a>
-
-                </div>
-            </div>
-        </div>
+    <div class="modal-footer">
+      <a class="btn btn-secondary btn-lg" *ngIf="currentIndex > 0" role="button"
+        (click)="changeList($event,  0)"  >Preview</a
+      >
+      <a class="btn btn-secondary btn-lg" *ngIf="currentIndex != questionnairesList.length - 1" role="button" (click)="changeList($event, 1)" 
+        >Next</a
+      >
+      <a class="btn btn-secondary btn-lg" *ngIf="currentIndex == questionnairesList.length - 1" (click)="onSubmit()"  role="button"
+        >Submit</a
+      >
     </div>
-</div>
-
-<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-    aria-hidden="true">
-    <div class="modal-dialog" role="document">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLabel">Why Workplace DQ?</h5>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                </button>
-            </div>
-            <div class="modal-body">
-                <span>QUESTION 01/10</span>
-                <div class="progress" style="height: 5px;">
-                    <div class="progress-bar" role="progressbar" style="width: 25%;" aria-valuenow="25"
-                        aria-valuemin="0" aria-valuemax="100"></div>
-                </div>
-                <h4>In general, how would you describe the digital literacy of your employees?</h4>
-                <div class="form-check">
-                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1"
-                        value="option1">
-                    <label class="form-check-label" for="exampleRadios1">
-                        They use digital tools only for basic needs such as emails/ attendance registration.
-                    </label>
-                </div>
-                <div class="form-check">
-                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2"
-                        value="option2">
-                    <label class="form-check-label" for="exampleRadios2">
-                        Even though advanced digital tools are available, they lack the expertise to use them.
-                    </label>
-                </div>
-                <div class="form-check">
-                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios3"
-                        value="option3">
-                    <label class="form-check-label" for="exampleRadios3">
-                        They are skilled in using some of the available digital technology.
-                    </label>
-                </div>
-                <div class="form-check">
-                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios4"
-                        value="option4">
-                    <label class="form-check-label" for="exampleRadios4">
-                        They are well-versed with all the relevant advanced digital tools available in the firm.
-                    </label>
-                </div>
-                <div class="form-check">
-                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios5"
-                        value="option5">
-                    <label class="form-check-label" for="exampleRadios5">
-                        They are skilled at using the cutting edge tools in the industry, even those available outside
-                        of our firm.
-                    </label>
-                </div>
-            </div>
-            <div class="modal-footer">
-                <a class="btn btn-secondary btn-lg" href="https://getbootstrap.com/" target="_blank"
-                    role="button">Preview</a>
-                <a class="btn btn-secondary btn-lg" href="https://getbootstrap.com/" target="_blank"
-                    role="button">Next</a>
-                <a class="btn btn-secondary btn-lg" href="https://getbootstrap.com/" target="_blank"
-                    role="button">Submit</a>
-            </div>
-        </div>
-    </div>
+  </ng-template>
 </div>
