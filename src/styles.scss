@@ -1,10 +1,7 @@
 @import "~bootstrap/scss/bootstrap";
-
 @font-face {
     font-family: 'Poppins';
-    src: url('assets/fonts/Poppins-Bold.woff2') format('woff2'),
-        url('assets/fonts/Poppins-Bold.woff') format('woff'),
-        url('assets/fonts/Poppins-Bold.ttf') format('truetype');
+    src: url('assets/fonts/Poppins-Bold.woff2') format('woff2'), url('assets/fonts/Poppins-Bold.woff') format('woff'), url('assets/fonts/Poppins-Bold.ttf') format('truetype');
     font-weight: bold;
     font-style: normal;
     font-display: swap;
@@ -12,9 +9,7 @@
 
 @font-face {
     font-family: 'Poppins';
-    src: url('assets/fonts/Poppins-Black.woff2') format('woff2'),
-        url('assets/fonts/Poppins-Black.woff') format('woff'),
-        url('assets/fonts/Poppins-Black.ttf') format('truetype');
+    src: url('assets/fonts/Poppins-Black.woff2') format('woff2'), url('assets/fonts/Poppins-Black.woff') format('woff'), url('assets/fonts/Poppins-Black.ttf') format('truetype');
     font-weight: 900;
     font-style: normal;
     font-display: swap;
@@ -22,9 +17,7 @@
 
 @font-face {
     font-family: 'Poppins';
-    src: url('assets/fonts/Poppins-Italic.woff2') format('woff2'),
-        url('assets/fonts/Poppins-Italic.woff') format('woff'),
-        url('assets/fonts/Poppins-Italic.ttf') format('truetype');
+    src: url('assets/fonts/Poppins-Italic.woff2') format('woff2'), url('assets/fonts/Poppins-Italic.woff') format('woff'), url('assets/fonts/Poppins-Italic.ttf') format('truetype');
     font-weight: normal;
     font-style: italic;
     font-display: swap;
@@ -32,9 +25,7 @@
 
 @font-face {
     font-family: 'Poppins';
-    src: url('assets/fonts/Poppins-ExtraLight.woff2') format('woff2'),
-        url('assets/fonts/Poppins-ExtraLight.woff') format('woff'),
-        url('assets/fonts/Poppins-ExtraLight.ttf') format('truetype');
+    src: url('assets/fonts/Poppins-ExtraLight.woff2') format('woff2'), url('assets/fonts/Poppins-ExtraLight.woff') format('woff'), url('assets/fonts/Poppins-ExtraLight.ttf') format('truetype');
     font-weight: 200;
     font-style: normal;
     font-display: swap;
@@ -42,9 +33,7 @@
 
 @font-face {
     font-family: 'Poppins';
-    src: url('assets/fonts/Poppins-ExtraBold.woff2') format('woff2'),
-        url('assets/fonts/Poppins-ExtraBold.woff') format('woff'),
-        url('assets/fonts/Poppins-ExtraBold.ttf') format('truetype');
+    src: url('assets/fonts/Poppins-ExtraBold.woff2') format('woff2'), url('assets/fonts/Poppins-ExtraBold.woff') format('woff'), url('assets/fonts/Poppins-ExtraBold.ttf') format('truetype');
     font-weight: 800;
     font-style: normal;
     font-display: swap;
@@ -52,9 +41,7 @@
 
 @font-face {
     font-family: 'Poppins';
-    src: url('assets/fonts/Poppins-Light.woff2') format('woff2'),
-        url('assets/fonts/Poppins-Light.woff') format('woff'),
-        url('assets/fonts/Poppins-Light.ttf') format('truetype');
+    src: url('assets/fonts/Poppins-Light.woff2') format('woff2'), url('assets/fonts/Poppins-Light.woff') format('woff'), url('assets/fonts/Poppins-Light.ttf') format('truetype');
     font-weight: 300;
     font-style: normal;
     font-display: swap;
@@ -62,9 +49,7 @@
 
 @font-face {
     font-family: 'Poppins';
-    src: url('assets/fonts/Poppins-Medium.woff2') format('woff2'),
-        url('assets/fonts/Poppins-Medium.woff') format('woff'),
-        url('assets/fonts/Poppins-Medium.ttf') format('truetype');
+    src: url('assets/fonts/Poppins-Medium.woff2') format('woff2'), url('assets/fonts/Poppins-Medium.woff') format('woff'), url('assets/fonts/Poppins-Medium.ttf') format('truetype');
     font-weight: 500;
     font-style: normal;
     font-display: swap;
@@ -72,9 +57,7 @@
 
 @font-face {
     font-family: 'Poppins';
-    src: url('assets/fonts/Poppins-SemiBold.woff2') format('woff2'),
-        url('assets/fonts/Poppins-SemiBold.woff') format('woff'),
-        url('assets/fonts/Poppins-SemiBold.ttf') format('truetype');
+    src: url('assets/fonts/Poppins-SemiBold.woff2') format('woff2'), url('assets/fonts/Poppins-SemiBold.woff') format('woff'), url('assets/fonts/Poppins-SemiBold.ttf') format('truetype');
     font-weight: 600;
     font-style: normal;
     font-display: swap;
@@ -82,9 +65,7 @@
 
 @font-face {
     font-family: 'Poppins';
-    src: url('assets/fonts/Poppins-Thin.woff2') format('woff2'),
-        url('assets/fonts/Poppins-Thin.woff') format('woff'),
-        url('assets/fonts/Poppins-Thin.ttf') format('truetype');
+    src: url('assets/fonts/Poppins-Thin.woff2') format('woff2'), url('assets/fonts/Poppins-Thin.woff') format('woff'), url('assets/fonts/Poppins-Thin.ttf') format('truetype');
     font-weight: 100;
     font-style: normal;
     font-display: swap;
@@ -92,9 +73,7 @@
 
 @font-face {
     font-family: 'Poppins';
-    src: url('assets/fonts/Poppins-Regular.woff2') format('woff2'),
-        url('assets/fonts/Poppins-Regular.woff') format('woff'),
-        url('assets/fonts/Poppins-Regular.ttf') format('truetype');
+    src: url('assets/fonts/Poppins-Regular.woff2') format('woff2'), url('assets/fonts/Poppins-Regular.woff') format('woff'), url('assets/fonts/Poppins-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -102,9 +81,7 @@
 
 @font-face {
     font-family: 'Roboto';
-    src: url('assets/fonts/Roboto-Black.woff2') format('woff2'),
-        url('assets/fonts/Roboto-Black.woff') format('woff'),
-        url('assets/fonts/Roboto-Black.ttf') format('truetype');
+    src: url('assets/fonts/Roboto-Black.woff2') format('woff2'), url('assets/fonts/Roboto-Black.woff') format('woff'), url('assets/fonts/Roboto-Black.ttf') format('truetype');
     font-weight: 900;
     font-style: normal;
     font-display: swap;
@@ -112,9 +89,7 @@
 
 @font-face {
     font-family: 'Roboto';
-    src: url('assets/fonts/Roboto-Italic.woff2') format('woff2'),
-        url('assets/fonts/Roboto-Italic.woff') format('woff'),
-        url('assets/fonts/Roboto-Italic.ttf') format('truetype');
+    src: url('assets/fonts/Roboto-Italic.woff2') format('woff2'), url('assets/fonts/Roboto-Italic.woff') format('woff'), url('assets/fonts/Roboto-Italic.ttf') format('truetype');
     font-weight: normal;
     font-style: italic;
     font-display: swap;
@@ -122,9 +97,7 @@
 
 @font-face {
     font-family: 'Roboto';
-    src: url('assets/fonts/Roboto-Bold.woff2') format('woff2'),
-        url('assets/fonts/Roboto-Bold.woff') format('woff'),
-        url('assets/fonts/Roboto-Bold.ttf') format('truetype');
+    src: url('assets/fonts/Roboto-Bold.woff2') format('woff2'), url('assets/fonts/Roboto-Bold.woff') format('woff'), url('assets/fonts/Roboto-Bold.ttf') format('truetype');
     font-weight: bold;
     font-style: normal;
     font-display: swap;
@@ -132,9 +105,7 @@
 
 @font-face {
     font-family: 'Roboto';
-    src: url('assets/fonts/Roboto-Light.woff2') format('woff2'),
-        url('assets/fonts/Roboto-Light.woff') format('woff'),
-        url('assets/fonts/Roboto-Light.ttf') format('truetype');
+    src: url('assets/fonts/Roboto-Light.woff2') format('woff2'), url('assets/fonts/Roboto-Light.woff') format('woff'), url('assets/fonts/Roboto-Light.ttf') format('truetype');
     font-weight: 300;
     font-style: normal;
     font-display: swap;
@@ -142,9 +113,7 @@
 
 @font-face {
     font-family: 'Roboto';
-    src: url('assets/fonts/Roboto-Medium.woff2') format('woff2'),
-        url('assets/fonts/Roboto-Medium.woff') format('woff'),
-        url('assets/fonts/Roboto-Medium.ttf') format('truetype');
+    src: url('assets/fonts/Roboto-Medium.woff2') format('woff2'), url('assets/fonts/Roboto-Medium.woff') format('woff'), url('assets/fonts/Roboto-Medium.ttf') format('truetype');
     font-weight: 500;
     font-style: normal;
     font-display: swap;
@@ -152,9 +121,7 @@
 
 @font-face {
     font-family: 'Roboto';
-    src: url('assets/fonts/Roboto-Regular.woff2') format('woff2'),
-        url('assets/fonts/Roboto-Regular.woff') format('woff'),
-        url('assets/fonts/Roboto-Regular.ttf') format('truetype');
+    src: url('assets/fonts/Roboto-Regular.woff2') format('woff2'), url('assets/fonts/Roboto-Regular.woff') format('woff'), url('assets/fonts/Roboto-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -162,20 +129,18 @@
 
 @font-face {
     font-family: 'Roboto';
-    src: url('assets/fonts/Roboto-Thin.woff2') format('woff2'),
-        url('assets/fonts/Roboto-Thin.woff') format('woff'),
-        url('assets/fonts/Roboto-Thin.ttf') format('truetype');
+    src: url('assets/fonts/Roboto-Thin.woff2') format('woff2'), url('assets/fonts/Roboto-Thin.woff') format('woff'), url('assets/fonts/Roboto-Thin.ttf') format('truetype');
     font-weight: 100;
     font-style: normal;
     font-display: swap;
 }
 
-html{
+html {
     width: 100%;
     height: 100%;
 }
 
-body{
+body {
     width: 100%;
     min-height: 100%;
     display: grid;
@@ -189,8 +154,8 @@ button:focus {
     box-shadow: none !important;
 }
 
-alert{
-    .alert{
+alert {
+    .alert {
         position: absolute;
         bottom: 0;
         right: 0;
@@ -198,17 +163,17 @@ alert{
     }
 }
 
-body{
+body {
     font-family: 'Poppins', sans-serif;
     background-color: #f2f1fe;
-    app-root{
+    app-root {
         width: 100%;
         height: 100%;
         display: flex;
     }
 }
 
-.custom-scrollbar{
+.custom-scrollbar {
     // max-height: 600px;
     overflow-y: visible;
     overflow-x: hidden;
@@ -225,7 +190,7 @@ body{
     }
 }
 
-app-login{
+app-login {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -235,29 +200,28 @@ app-login{
     background: #f2f1fe;
 }
 
-
 .modal-open .modal {
-  display: flex !important;
-  align-items: center !important;
-  .modal-dialog {
-    flex-grow: 1;
-    max-width: 700px;
-    .modal-content{
-        border: none;
-        border-radius: 10px;
+    display: flex !important;
+    align-items: center !important;
+    .modal-dialog {
+        flex-grow: 1;
+        max-width: 700px;
+        .modal-content {
+            border: none;
+            border-radius: 10px;
+        }
     }
-  }
 }
 
-.admin{
-    header{
+.admin {
+    header {
         padding: 0;
         float: left;
         width: 100%;
         position: relative;
         border-bottom: solid thin #edf1f7;
         padding: 0 25px;
-        .page-title{
+        .page-title {
             color: #000000;
             font-size: 22px;
             margin: 0;
@@ -267,7 +231,7 @@ app-login{
             line-height: 47px;
             float: left;
         }
-        .btn{
+        .btn {
             float: right;
             padding: 8px 20px;
             border: solid thin #6e6f8a;
@@ -276,14 +240,14 @@ app-login{
             vertical-align: middle;
             font-size: 18px;
             transition: ease-in-out all 0.2s;
-            &:hover{
+            &:hover {
                 background: #6e6f8a;
                 color: #ffffff;
-                svg{
+                svg {
                     fill: #ffffff;
                 }
             }
-            svg{
+            svg {
                 position: relative;
                 top: -2px;
                 width: 14px;
@@ -294,67 +258,59 @@ app-login{
     }
 }
 
-@media print
-{    
-    .no-print, .no-print *
-    {
+@media print {
+    .no-print,
+    .no-print * {
         display: none !important;
     }
 }
 
-.main-section{
+.main-section {
     float: left;
     width: 100%;
     padding: 0 20px;
     margin: 20px 0;
-    &>div{
+    &>div {
         float: left;
         width: 100%;
     }
 }
 
-$someColor : #58e9cc;
-
+$someColor: #58e9cc;
 .timepicker {
-
     .timepicker__header {
-      background-color: $someColor !important;
+        background-color: $someColor !important;
     }
-  
     .clock-face__clock-hand {
-      background-color: $someColor !important;
-  
-      &::after {
         background-color: $someColor !important;
-      }
-  
-      &::before {
-        border-color: $someColor !important;
-      }
+        &::after {
+            background-color: $someColor !important;
+        }
+        &::before {
+            border-color: $someColor !important;
+        }
     }
-  
     .clock-face__number {
-      > span.active {
-        background-color: $someColor !important;
-      }
+        >span.active {
+            background-color: $someColor !important;
+        }
     }
-  
     button:not(.timepicker-dial__item) {
-      color: $someColor !important;
+        color: $someColor !important;
     }
-  }
+}
 
-.Enparadigm-forms{
-    form{
+.Enparadigm-forms {
+    form {
         float: left;
         max-width: 650px;
-        &>div{
+        &>div {
             margin-bottom: 20px;
             margin-top: 20px;
             position: relative;
             overflow: visible;
         }
-        .form-label{
+        .form-label {
             position: absolute;
             margin-left: 25px;
             padding: 0 15px;
@@ -366,10 +322,10 @@ $someColor : #58e9cc;
             letter-spacing: 0;
             line-height: 16px;
         }
-        .form-text{
+        .form-text {
             display: flex;
             align-items: center;
-            label{
+            label {
                 color: #000000;
                 font-size: 16px;
                 letter-spacing: 0;
@@ -377,7 +333,7 @@ $someColor : #58e9cc;
             }
         }
         input,
-        select{
+        select {
             border: 1px solid #979797;
             border-radius: 5px;
             background-color: #FFFFFF;
@@ -389,100 +345,102 @@ $someColor : #58e9cc;
             font-weight: 500;
             letter-spacing: 0;
             line-height: 15px;
-            &.inputDisabled{
+            &.inputDisabled {
                 pointer-events: none;
             }
             &:-webkit-autofill,
             &:-webkit-autofill:hover,
             &:-webkit-autofill:focus,
-            &:-webkit-autofill:active
-            {
+            &:-webkit-autofill:active {
                 -webkit-box-shadow: 0 0 0 30px white inset !important;
                 background: none;
             }
-            &:read-only{
+            &:read-only {
                 background-color: #ffffff;
             }
         }
-        input{
+        input {
             &:focus,
-            &:disabled, &.inputDisabled{
+            &:disabled,
+            &.inputDisabled {
                 background: none !important;
                 border-color: #cccccc;
             }
         }
-        select{
+        select {
             -webkit-appearance: none;
             background-image: url("data:image/svg+xml;utf8,<svg fill='black' height='32' viewBox='0 0 24 26' width='40' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/><path d='M0 0h30v30H0z' fill='none'/></svg>") !important;
             background-repeat: no-repeat;
             background-position-x: 98%;
             background-position-y: 63%;
-            &:disabled, &.inputDisabled{
+            &:disabled,
+            &.inputDisabled {
                 background-color: #ffffff;
                 border-color: #cccccc;
             }
         }
-
-        .radio-btn-group{
+        .radio-btn-group {
             margin-top: 10px;
             margin-left: 5px;
-            label{
+            label {
                 background-color: #e6e6e6;
                 border-color: #e6e6e6;
                 color: #000000;
                 &.active,
                 &:focus,
-                &:active{
+                &:active {
                     background-color: #58e9cc !important;
                     border-color: #58e9cc !important;
                 }
             }
-            input{
+            input {
                 display: none;
             }
         }
-        button{
+        button {
             border-radius: 5px;
             background-color: #E77649;
             border: none;
             outline: none;
             height: 46px;
-            &:hover, &:active, &:focus{
+            &:hover,
+            &:active,
+            &:focus {
                 background-color: #58e9cc;
             }
         }
-        .error-message{
+        .error-message {
             margin: 0;
             font-size: 13px;
-            &::before{
+            &::before {
                 content: "*";
             }
         }
     }
-    .upload-imge{
+    .upload-imge {
         display: flex;
         align-items: center;
         margin: 20px 0;
-        .upload-placeholder{
+        .upload-placeholder {
             width: 150px;
             border: 1px solid #979797;
             overflow: hidden;
-            img{
+            img {
                 width: 150px;
                 height: 150px;
                 object-fit: cover;
             }
-            label{
+            label {
                 margin: 0;
             }
-            input{
+            input {
                 display: none;
             }
         }
-        ul{
+        ul {
             list-style-type: none;
             list-style-position: inside;
-            li{
+            li {
                 color: #838383;
                 font-size: 12px;
                 letter-spacing: 0;
@@ -490,230 +448,284 @@ $someColor : #58e9cc;
         }
     }
     .invalid-feedback {
-      display: block !important;
+        display: block !important;
     }
 }
-.header{    background: #DBE1F2;
-    padding: 30px 0;}
-.main-link{
-	background: #FFC205;
-	text-align: center;
-	font-size: 15px;
-	letter-spacing: 0.72px;
-	color: #3A3A3A;
-	border-radius: 40px;
-	font-family: 'Nanum Gothic', sans-serif;
+
+.header {
+    background: #DBE1F2;
+    padding: 30px 0;
+}
+
+.main-link {
+    background: #FFC205;
+    text-align: center;
+    font-size: 15px;
+    letter-spacing: 0.72px;
+    color: #3A3A3A;
+    border-radius: 40px;
+    font-family: 'Nanum Gothic', sans-serif;
     opacity: 1;
     font-weight: bold;
-	padding:10px 23px
-	}
-.about-workforce{
-	 width: 100%;
+    padding: 10px 23px
+}
+
+.about-workforce {
+    width: 100%;
     float: left;
     margin: 70px 0;
 }
-.about-workforce h1{
-	 color: #fc5233;
+
+.about-workforce h1 {
+    color: #fc5233;
     font-size: 37px;
     font-family: 'Fira Sans', sans-serif;
     font-weight: bold
 }
-.about-workforce p{
-	    color: #5B5766;
+
+.about-workforce p {
+    color: #5B5766;
     font-size: 18px;
-    font-family: NanumGothic,sans-serif;
+    font-family: NanumGothic, sans-serif;
     font-weight: normal;
 }
-.image-workforce img{width:85%;}
+
+.image-workforce img {
+    width: 85%;
+}
 
 .jumbotron {
     padding: 0rem 2rem 0;
-	background:#DBE1F2;
-	margin:0px
+    background: #DBE1F2;
+    margin: 0px;
+    position: relative;
 }
 
-.about-workforce a{
-	border:0;
-	background: #FFC205;
-	text-align: center;
-	font-size: 15px;
-	letter-spacing: 0.72px;
-	color: #3A3A3A;
-	border-radius: 40px;
-	font-family: 'Nanum Gothic', sans-serif;
+.jumbotron .down-arrow {
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+}
+
+.jumbotron .down-arrow a {
+    background: #FC5233;
+    color: #fff;
+    padding: 25px 30px;
+    border-radius: 100px;
+}
+
+.jumbotron .down-arrow a img {
+    width: 15%;
+}
+
+.about-workforce a {
+    border: 0;
+    background: #FFC205;
+    text-align: center;
+    font-size: 15px;
+    letter-spacing: 0.72px;
+    color: #3A3A3A;
+    border-radius: 40px;
+    font-family: 'Nanum Gothic', sans-serif;
     opacity: 1;
     font-weight: bold;
-	padding:5px 35px;
-	}
-.bg-marron{    background: #B00054;
+    padding: 5px 35px;
+}
+
+.bg-marron {
+    background: #B00054;
     padding: 80px 0 0;
     color: #fff;
-	text-align: center;
-	
+    text-align: center;
 }
-.bg-marron h3{
-	    font-size: 28px;
-    font-family: 'Fira Sans';
-	    text-align: center;
 
+.bg-marron h3 {
+    font-size: 28px;
+    font-family: 'Fira Sans';
+    text-align: center;
+    color: #fff;
     font-weight: bold;
 }
 
-.bg-marron .cols-text{
-	    font-size: 16px;
+.bg-marron .cols-text {
+    font-size: 16px;
     font-family: 'Nanum Gothic';
     padding: 0px 133px;
-	    text-align: center;
-
+    text-align: center;
     margin: 30px 0;
+    color: #fff;
 }
 
-.bg-marron .col{
-	background: #fff;
+.bg-marron .col {
+    background: #fff;
     color: #000;
     padding: 30px;
-	height:230px;
-	box-shadow:0px 0px 20px #FFC20538;
+    height: 230px;
+    box-shadow: 0px 0px 20px #FFC20538;
     border-radius: 10px;
-	    text-align: center;
-
+    text-align: center;
 }
-.bg-white{padding:80px 0}
-.bg-white .col{
-	background: #fff;
+
+.bg-white {
+    padding: 80px 0
+}
+
+.bg-white .col {
+    background: #fff;
     color: #000;
     padding: 30px;
-	box-shadow:0px 0px 20px #3b3b3b42;
+    box-shadow: 0px 0px 20px #3b3b3b42;
     border-radius: 10px;
     text-align: center;
     margin: 30px 0 0;
 }
-.bg-white .cols p.cols-text{
+
+.bg-white .cols p.cols-text {
     color: #5B5766;
     font-size: 18px;
     font-family: 'Nanum Gothic';
-	font-weight:normal;
+    font-weight: normal;
 }
-.bg-white .col h3{
+
+.bg-white .col h3 {
     font-size: 30px;
     color: #FC5233;
     font-family: 'Fira Sans';
     font-weight: bold;
 }
-.bg-white img {width: 45px;
+
+.bg-white img {
+    width: 45px;
     height: 45px;
 }
-.bg-white .cols p{
-	    font-size: 15px;
+
+.bg-white .cols p {
+    font-size: 15px;
     font-family: 'Nanum Gothic';
     font-weight: bold;
     color: #3A3A3A;
-	margin:8px 0;	
-}
-.bg-white .cols p .text-right{
-	float:right;
-	margin-top:15px;
-}
-.bg-marron  .col img{
-	width: 67px;
-	margin: 0 0 15px;
-	text-align: center;
+    margin: 8px 0;
 }
 
-.bg-marron .col p{
-	font-size: 17px;
+.bg-white .cols p .text-right {
+    float: right;
+    margin-top: 15px;
+}
+
+.bg-marron .col img {
+    width: 67px;
+    margin: 0 0 15px;
+    text-align: center;
+}
+
+.bg-marron .col p {
+    font-size: 17px;
     font-family: 'Fira Sans';
     font-weight: bold;
-	text-align: center;
+    text-align: center;
     color: #5D5D5D;
 }
-.bg-image{
-	background: transparent url(assets/images/Background.svg) 0% 0% no-repeat padding-box;
+
+.bg-image {
+    background: transparent url(assets/images/Background.svg) 0% 0% no-repeat padding-box;
     opacity: 1;
     padding: 73px 0 0;
     background-size: cover;
     text-align: center;
-	width:100%;
+    width: 100%;
 }
-.bg-image  h3{
+
+.bg-image h3 {
     color: #FC5233;
     font-size: 18px;
     font-family: 'Fira Sans';
     font-weight: bold;
     padding: 1px 260px;
 }
-.bg-image  h3.content{
+
+.bg-image h3.content {
     color: #3B3B3B;
     font-size: 18px;
     font-family: 'Fira Sans';
     font-weight: bold;
     padding: 1px 260px;
 }
-.bg-image .cols-text{
-	color: #5B5766;
+
+.bg-image .cols-text {
+    color: #5B5766;
     font-size: 18px;
     font-family: 'Nanum Gothic';
     font-weight: bold;
     margin: 30px 0;
-	padding: 0px 303px;
-}
-.bg-image a{
-	border:0;
-	background: #FFC205;
-	text-align: center;
-	font-size: 15px;
-	letter-spacing: 0.72px;
-	color: #3A3A3A;
-	border-radius: 40px;
-	font-family: 'Nanum Gothic', sans-serif;
-    opacity: 1;
-    font-weight: bold;
-	padding:5px 35px;
-	    margin: 19px 0 40px 0;
-}
-.modal.fade.show{
-	background:#B00054 !important;
+    padding: 0px 303px;
 }
 
-.modal-dialog{
-	    max-width: 700px;
-		margin:100px auto;
+.bg-image a {
+    border: 0;
+    background: #FFC205;
+    text-align: center;
+    font-size: 15px;
+    letter-spacing: 0.72px;
+    color: #3A3A3A;
+    border-radius: 40px;
+    font-family: 'Nanum Gothic', sans-serif;
+    opacity: 1;
+    font-weight: bold;
+    padding: 5px 35px;
+    margin: 19px 0 40px 0;
 }
-.modal-dialog h5{
+
+.modal.fade.show {
+    background: #B00054 !important;
+}
+
+.modal-dialog {
+    max-width: 700px;
+    margin: 100px auto;
+}
+
+.modal-dialog h5 {
     font-size: 28px;
     font-family: 'Fira Sans';
     font-weight: bold;
     color: #3B3B3B;
 }
-.modal-body{ 
+
+.modal-body {
     font-size: 18px;
     font-family: 'Fira Sans';
     color: #ACACAC;
 }
-.progress{
-	background-color: #FFC205;
+
+.progress {
+    background-color: #FFC205;
 }
-.progress-bar{
+
+.progress-bar {
     background-color: #FC5233;
 }
 
-.modal-body h4{
-	    font-size: 18px;
+.modal-body h4 {
+    font-size: 18px;
     font-family: 'Fira Sans';
     font-weight: bold;
     margin: 20px 0 10px;
     color: #3B3B3B;
 }
-.form-check{margin-bottom:10px}
-.form-check .form-check-label{
-	font-size: 16px;
+
+.form-check {
+    margin-bottom: 10px
+}
+
+.form-check .form-check-label {
+    font-size: 16px;
     font-family: 'Nanum Gothic';
     font-weight: normal;
     color: #3B3B3B;
-	
 }
-.close{
-	    background-color: #B00054 !important;
+
+.close {
+    background-color: #B00054 !important;
     color: #fff;
     border-radius: 100%;
     padding: 0 0px;
@@ -725,27 +737,68 @@ $someColor : #58e9cc;
     opacity: 1;
 }
 
-.modal-footer{border-top:0px;}
+.modal-footer {
+    border-top: 0px;
+}
 
-.modal-footer a{
-	border:0;
-	background: #FFC205;
-	text-align: center;
-	font-size: 15px;
-	letter-spacing: 0.72px;
-	color: #3A3A3A;
-	border-radius: 40px;
-	font-family: 'Nanum Gothic', sans-serif;
+.modal-footer a {
+    border: 0;
+    background: #FFC205;
+    text-align: center;
+    font-size: 15px;
+    letter-spacing: 0.72px;
+    color: #3A3A3A;
+    border-radius: 40px;
+    font-family: 'Nanum Gothic', sans-serif;
     opacity: 1;
     font-weight: bold;
-	padding:5px 25px;
+    padding: 5px 25px;
 }
-.form-group input{
-	    border: 2px solid #707070;
+
+.form-group input {
+    border: 2px solid #707070;
     border-radius: 40px;
     opacity: 1;
 }
-.form-group{
-	    margin: 10px 0;
+
+.form-group {
+    margin: 10px 0;
     width: 100%;
-    float: left;}
+    float: left;
+}
+
+form,
+.form-row {
+    width: 100%;
+    float: left;
+}
+
+.form-row .btn {
+    border: 0;
+    background: #FFC205;
+    text-align: center;
+    font-size: 15px;
+    letter-spacing: 0.72px;
+    color: #3A3A3A;
+    border-radius: 40px;
+    font-family: "Nanum Gothic", sans-serif;
+    opacity: 1;
+    font-weight: bold;
+    padding: 5px 35px;
+}
+
+.invalid-feedback {
+    text-align: left;
+    margin: 0 0 0 15px
+}
+
+.preview-btn {
+    background: #fff !important;
+    border: 2px solid #3A3A3A !important;
+}
+
+.preview-btn:hover {
+    background: #FFC205 !important;
+    border: 2px solid #fff !important;
+    color: #3A3A3A !important;
+}
