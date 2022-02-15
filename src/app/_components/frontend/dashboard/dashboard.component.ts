@@ -16,7 +16,7 @@ export class FrontEndDashboardComponent implements OnInit {
     questionnaires: {}
   };
   submitted = false;
-  BlockIndexList: any;
+  current: any = 1;
   currentIndex: any = 0;
   loading = false;
   
@@ -71,10 +71,13 @@ export class FrontEndDashboardComponent implements OnInit {
       alert('Please select at least one answer'); 
       return false; 
     }
-    if (index)
+    if (index) {
       this.currentIndex++
-    else
+      this.current++
+    } else {
       this.currentIndex--
+      this.current--
+    }
   }
   onSubmit() {
     this.submitted = true;

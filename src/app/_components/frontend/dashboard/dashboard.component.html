@@ -110,9 +110,9 @@
     </button>
   </div>
   <div class="modal-body">
-    <span>QUESTION 01/10</span>
+    <span>QUESTION {{current}}/{{questionnairesList.length}}</span>
     <div class="progress" style="height: 5px">
-      <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0"
+      <div class="progress-bar" role="progressbar"  [style.width]="current * 100 / questionnairesList.length +'%'"  aria-valuenow="100" aria-valuemin="0"
         aria-valuemax="100"></div>
     </div>
     <div class="question" *ngFor="let item of questionnairesList; let qNo = index" id="Block{{item.qNo}}"
