@@ -61,11 +61,16 @@ export class FrontEndDashboardComponent implements OnInit {
     }
   }
   selectedOption(index: any, option: any, value: any) {
-    console.log(this.questionnairesList[index]);
     this.questionnairesList[index]['selectedOption'] = option;
     this.questionnairesList[index]['selectedvalue'] = value;
+    console.log(index);
   }
-  changeList(event: any, index: number) {
+  changeList(event: any, index: number): any {
+    const option = this.questionnairesList[this.currentIndex]['selectedOption'];
+    if(!option) { 
+      alert('Please select at least one answer'); 
+      return false; 
+    }
     if (index)
       this.currentIndex++
     else

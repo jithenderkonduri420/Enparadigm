@@ -22,6 +22,7 @@ export class ApiService {
     } else {
       errorJson = error;
     }
+    console.log(error);
     switch (error.status) {
       default:
         title = 'Api Internal Error';

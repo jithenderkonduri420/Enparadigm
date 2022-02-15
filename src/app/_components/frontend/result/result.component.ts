@@ -49,7 +49,7 @@ export class FrontEndResultComponent implements OnInit {
     if (this.quizForm.invalid) {
       return;
     }
-    this.surveyDetails['questionnaires'] = this.surveyDetails;
+    this.surveyDetails['questionnaires'] = this.surveyDetails.questionnaires;
     this.surveyDetails['name'] = this.quizForm.value.name;
     this.surveyDetails['email'] = this.quizForm.value.email;
     this.surveyDetails['organization'] = this.quizForm.value.organization;
